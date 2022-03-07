@@ -30,7 +30,7 @@ body {
 
 .product{
   width: 300px;
-  height: 500px;
+  /* height: 500px; */
   background-color: rgb(221, 213, 213);  
   display: inline-block;
   margin: 10px;
@@ -79,8 +79,7 @@ body {
 .trademark {
   color: #ddd5d5;
   font-size: 0.8rem;
-  font-weight: lighter
-;
+  font-weight: lighter;
 }
 
 .prod-name {
@@ -104,3 +103,8 @@ text-decoration: line-through;
 
 /* IMMAGINI */
 
+img {
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+}
