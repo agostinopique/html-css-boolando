@@ -22,24 +22,27 @@ body {
 /* MAIN */
 
 
-.row {
+.container {
   width: 80%;
-  margin: 15px auto;
+  margin: 0px auto;
   text-align: center;
 }
 
 .product{
   width: 300px;
-  /* height: 500px; */
-  background-color: rgb(221, 213, 213);  
+  height: 500px;
   display: inline-block;
   margin: 10px;
   position: relative;
 }
 
+
+/* DESCRIZIONE PRODOTTO */
+
+
 .product-desc {
   position: absolute;
-  bottom: 0;
+  bottom: 15px;
   width: 100%;
   background-color: white;
   text-align: left;
@@ -47,7 +50,7 @@ body {
 
 .products-notes {
   position: absolute;
-  bottom: 65px;
+  bottom: 80px;
   font-size: 11px;
 }
 
@@ -103,8 +106,32 @@ text-decoration: line-through;
 
 /* IMMAGINI */
 
-img {
+body img {
   width: 100%;
   background-size: contain;
   background-position: center;
+}
+
+.fit-tee .prod-card:hover img {
+  content: url(./img/1b.webp);
+}
+
+.rose-tee .prod-card:hover img {
+  content: url(./img/2b.webp);
+}
+
+.pastel .prod-card:hover img {
+  content: url(./img/3b.webp);
+}
+
+.uni-tee .prod-card:hover img {
+  content: url(./img/4b.webp);
+}
+
+.maya .prod-card:hover img {
+  content: url(./img/5b.webp);
+}
+
+.esprit .prod-card:hover img {
+  content: url(./img/6b.webp);
 }
