@@ -29,17 +29,26 @@ body {
 }
 
 .product{
-  width: 270px;
-  height: 400px;
+  width: 300px;
+  height: 500px;
   background-color: rgb(221, 213, 213);  
   display: inline-block;
   margin: 10px;
   position: relative;
 }
 
+.product-desc {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  text-align: left;
+}
+
 .products-notes {
   position: absolute;
-  bottom: 10px;
+  bottom: 65px;
+  font-size: 11px;
 }
 
 .discount {
@@ -65,3 +74,33 @@ body {
   background-color: white;
   padding: 10px 15px;
 }
+
+
+.trademark {
+  color: #ddd5d5;
+  font-size: 0.8rem;
+  font-weight: lighter
+;
+}
+
+.prod-name {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.price {
+  font-size: 0.8rem;
+}
+
+.price .new-price {
+  color: red;
+}
+
+.price .old-price {
+color: #7e7777;
+text-decoration: line-through;
+}
+
+/* IMMAGINI */
+
